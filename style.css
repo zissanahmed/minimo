@@ -1,0 +1,66 @@
+/*comment css start*/
+body {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 400;
+  
+}
+/*comment css end*/
+/*header start*/
+header {
+    padding: 35px 0;
+    border: 1px solid;
+}
+.container {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 90%;
+  /*border: 1px solid red;*/
+}
+.logo {
+  margin-top: 12px;
+  float: left;
+  width: 12%;
+  /*border: 1px solid black;*/
+}
+.logo a {
+}
+.logo a img {
+    width: 100%;
+}
+.menu {
+  float: right;
+  width: 65%;
+  /*border: 1px solid black;*/
+}
+.menu ul {
+    float: right;
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+.menu ul li a {
+    display: inline-block;
+    margin: 0 60px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .33s linear;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+.menu ul li a:hover {
+   border-bottom: 1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+    width: 100%;
+}
+/*banner end*/
