@@ -1,0 +1,2 @@
+# minimo
+web layout(minimo)
